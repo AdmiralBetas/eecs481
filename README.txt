@@ -9,7 +9,8 @@ Last Edited 9/23/2013
 ===================================================================================
 
 This README contains information regarding the overall operation of the 
-Message Recorder app, dealing mostly with the high-level design. 
+Message Recorder app, dealing mostly with the high-level design. There is also info
+concerning where the code is stored and how it can be accessed and built. 
 For specifics about implementation, see comments in-code.
 
 ===================================================================================
@@ -32,8 +33,22 @@ timestamped at the moment of recording.
 Message Recorder's source code is located for public viewing and download on my
 "eecs481" repository on Github. To access the code, follow these instructions:
 
-1)
+1) Download and install the latest version of Git from http://git-scm.com/downloads
+2) Open the Git GUI, either through a GUI or on the Git Bash CLI using the 
+	command "git gui".
+3) You will be prompted for a source from which to create your local repository. 
+	Choose to clone an existing repository.
+4) On the next dialogue, enter the HTTPS link to my repository--
 	
+	https://github.com/AdmiralBetas/eecs481.git
+	
+	in the field "Source Location". Enter your desired location for the files to go
+	in "Target Directory". Make sure to specify a new folder.
+5) Press the appropriate button, and the Git GUI will clone my repository's files
+	to a local repository on your machine, and will then shift into a new layout with
+	various information about the repository.
+6) Click "Repository" on the main menu, and then "Explore Working Copy" to open the
+	folder containing Message Recorder's source files.
 	
 ====================================================================================
 	Building the Code
